@@ -1,0 +1,793 @@
+a {
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+@font-face {
+  font-family: chillax;
+  src: url(../../font/Chillax-Regular.otf);
+}
+.main {
+  overflow-x: hidden;
+  background-color: black;
+}
+.main .headTop {
+  background-color: black;
+  height: 70px;
+}
+.main .headTop figure > img {
+  width: 50px;
+}
+.main .headTop .menuTop > ul > li {
+  background-color: rgba(255, 255, 255, 0.135);
+  border-radius: 5px;
+  margin: 3px;
+  height: 70%;
+  display: flex;
+  transition: 0.4s;
+}
+.main .headTop .menuTop > ul > li:hover {
+  background-color: rgba(255, 255, 255, 0.324);
+}
+.main .headTop .menuTop > ul > li > a {
+  color: white;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 14px;
+  margin: 0 10px;
+}
+.main .headTop .menuTop > ul > li > span {
+  transform: rotate(90deg) translateY(35%);
+  font-size: 12px;
+}
+.main .headTop .menuTop > ul > li:hover > .subMenu {
+  visibility: visible;
+  opacity: 1;
+  z-index: 100;
+}
+.main .headTop .menuTop > ul > li .subMenu {
+  opacity: 0;
+  transition: 0.4s;
+  visibility: hidden;
+  font-family: "Varela Round", sans-serif;
+  height: 400px;
+  border-radius: 10px;
+  top: 60px;
+}
+.main .headTop .menuTop > ul > li .subMenu > * {
+  width: 24%;
+}
+.main .headTop .menuTop > ul > li .subMenu > figure > img {
+  border-radius: 15px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.main .headTop .menuTop > ul > li .subMenu > figure > figcaption {
+  color: white;
+  text-transform: uppercase;
+  right: 10%;
+  bottom: 5%;
+}
+.main .headTop .menuTop > ul > li .subMenu h3 {
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  padding-left: 11%;
+}
+.main .headTop .menuTop > ul > li .subMenu ul {
+  margin-top: -20px;
+}
+.main .headTop .menuTop > ul > li .subMenu ul > li {
+  margin-top: 7%;
+}
+.main .headTop .menuTop > ul > li .subMenu ul > li > a {
+  color: grey;
+  transition: 0.4s;
+}
+.main .headTop .menuTop > ul > li .subMenu ul > li > a:hover {
+  color: white;
+}
+.main .headTop .menuTop > ul > li .subMenu .subMenuButton {
+  background-color: #e3d072;
+  height: 50px;
+  border-radius: 5px;
+  transition: 0.4s;
+  width: 200px;
+  transform: translate(15%, -145%);
+}
+.main .headTop .menuTop > ul > li .subMenu .subMenuButton:hover {
+  background-color: #cebd63;
+}
+.main .headTop .menuTop > ul > li .subMenu .subMenuButton > a {
+  color: rgba(0, 0, 0, 0.521);
+  font-size: 14px;
+}
+.main .headTop .cart {
+  height: 70%;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.135);
+  margin-top: 10px;
+  margin-left: -10px;
+}
+.main .headTop .cart > span {
+  color: white;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+.main .headTop .cart > span:nth-of-type(2) {
+  color: black;
+  background-color: #cebd63;
+  border-radius: 50%;
+  height: 25px;
+  width: 25px;
+}
+.main .headTop .getInTouch {
+  background-color: #cebd63;
+  height: 70%;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-left: 5px;
+  transition: 0.4s;
+}
+.main .headTop .getInTouch:hover {
+  background-color: rgba(206, 188, 99, 0.6705882353);
+}
+.main .headTop .toggle {
+  background-color: rgba(255, 255, 255, 0.135);
+  height: 70%;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+.main .headTop .toggle i {
+  font-size: 35px;
+}
+.main .headTop .toggle:hover > .toggleMenu {
+  opacity: 1;
+  visibility: visible;
+  z-index: 100;
+}
+.main .headTop .toggle .toggleMenu {
+  opacity: 0;
+  transition: 0.4s;
+  visibility: hidden;
+  height: 330px;
+  border-radius: 10px;
+  top: 60px;
+}
+.main .headTop .toggle .toggleMenu > li {
+  background-color: rgba(49, 48, 48, 0.537);
+  border-radius: 5px;
+  height: 50px;
+  margin: 5px 0;
+  transition: 0.4s;
+}
+.main .headTop .toggle .toggleMenu > li:hover {
+  background-color: rgba(47, 47, 47, 0.792);
+}
+.main .headTop .toggle .toggleMenu > li > a {
+  display: flex;
+  font-family: "Varela Round", sans-serif;
+  align-items: center;
+  color: white;
+  padding-left: 5px;
+}
+.main .fashion {
+  background-color: black;
+  height: 80vh;
+}
+@media screen and (min-width: 768px) {
+  .main .fashion {
+    height: 100vh;
+  }
+}
+.main .fashion figure > img {
+  border-radius: 10px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.main .fashion figure > figcaption {
+  color: rgba(255, 255, 255, 0.763);
+  font-family: chillax;
+  bottom: 13%;
+  left: 0;
+  z-index: 2;
+}
+@media screen and (min-width: 992px) {
+  .main .fashion figure > figcaption {
+    left: 5%;
+  }
+}
+.main .fashion figure > figcaption > h1 {
+  text-transform: uppercase;
+  font-size: 2.5rem;
+}
+@media screen and (min-width: 425px) {
+  .main .fashion figure > figcaption > h1 {
+    font-size: 3.5rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .main .fashion figure > figcaption > h1 {
+    font-size: 6rem;
+  }
+}
+.main .fashion figure > figcaption > h1:nth-of-type(2) {
+  margin-top: -20px;
+  padding-left: 20%;
+}
+.main .fashion figure > figcaption > p {
+  padding: 0 20%;
+  font-size: 100%;
+  transform: translateX(-5%);
+}
+.main .fashion span {
+  background-color: rgba(0, 0, 0, 0.37);
+}
+.main .branding {
+  background-color: black;
+}
+.main .branding .brandingBox {
+  background-color: rgb(25, 25, 25);
+  border-radius: 10px;
+  text-transform: uppercase;
+  font-family: chillax;
+  transition: 0.4s;
+  height: 300px;
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .main .branding .brandingBox:nth-of-type(odd) {
+    transform: translateX(-2%);
+  }
+  .main .branding .brandingBox:nth-of-type(even) {
+    transform: translateX(2%);
+  }
+}
+.main .branding .brandingBox:hover {
+  background-color: rgb(31, 31, 31);
+}
+.main .branding .brandingBox > h3 {
+  color: white;
+  margin-top: 5%;
+  font-size: 150%;
+}
+.main .branding .brandingBox > p {
+  text-transform: none;
+  color: rgb(140, 140, 140);
+  font-size: 95%;
+}
+.main .branding .brandingBox > a {
+  color: white;
+  font-size: 90%;
+}
+.main .logos {
+  background-color: black;
+}
+.main .logos figure {
+  height: 100px;
+}
+.main .about {
+  background-color: black;
+}
+.main .about figure {
+  height: 60vh;
+  border-radius: 10px;
+}
+.main .about figure > img {
+  width: 120%;
+  left: -10%;
+}
+.main .about figure > span {
+  background-color: rgba(0, 0, 0, 0.418);
+}
+@media screen and (min-width: 992px) {
+  .main .about figure {
+    height: 90vh;
+  }
+}
+@media screen and (min-width: 992px) {
+  .main .about figure {
+    transform: translateX(-1%);
+  }
+  .main .about .aboutBox {
+    transform: translateX(1%);
+  }
+}
+.main .about .aboutBox {
+  height: 60vh;
+  border-radius: 10px;
+  background-color: rgb(31, 31, 31);
+  font-family: chillax;
+}
+@media screen and (min-width: 992px) {
+  .main .about .aboutBox {
+    height: 90vh;
+  }
+}
+.main .about .aboutBox > h3 {
+  color: white;
+  font-size: 200%;
+  text-transform: uppercase;
+}
+@media screen and (min-width: 768px) {
+  .main .about .aboutBox > h3 {
+    font-size: 350%;
+  }
+}
+@media screen and (min-width: 992px) {
+  .main .about .aboutBox > h3 {
+    font-size: 400%;
+  }
+}
+.main .about .aboutBox > p {
+  color: grey;
+  font-size: 75%;
+  -moz-column-count: 2;
+       column-count: 2;
+}
+@media screen and (min-width: 425px) {
+  .main .about .aboutBox > p {
+    font-size: 100%;
+  }
+}
+.main .video {
+  background-color: black;
+}
+.main .video figure {
+  height: 60vh;
+}
+.main .video figure > img {
+  border-radius: 10px;
+}
+.main .video figure > span {
+  background-color: rgba(0, 0, 0, 0.418);
+}
+@media screen and (min-width: 992px) {
+  .main .video figure {
+    height: 90vh;
+  }
+}
+.main .video .videoBox > div {
+  background-color: rgb(31, 31, 31);
+  border-radius: 10px;
+  margin-bottom: 10px;
+  height: 80px;
+  transition: 0.4s;
+  cursor: pointer;
+}
+@media screen and (min-width: 992px) {
+  .main .video .videoBox > div {
+    height: 150px;
+  }
+}
+.main .video .videoBox > div:nth-of-type(1) {
+  background-color: rgb(44, 44, 44);
+}
+.main .video .videoBox > div:hover {
+  background-color: rgb(44, 44, 44);
+}
+.main .video .videoBox > div > div {
+  font-family: chillax;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+@media screen and (min-width: 992px) {
+  .main .video .videoBox > div > div {
+    padding-top: 20px;
+  }
+}
+.main .video .videoBox > div > div h4 {
+  padding-left: 5px;
+  text-transform: uppercase;
+  color: white;
+  font-size: 90%;
+  margin-bottom: 0;
+}
+@media screen and (min-width: 425px) {
+  .main .video .videoBox > div > div h4 {
+    font-size: 130%;
+  }
+}
+.main .video .videoBox > div > div p {
+  color: grey;
+  font-size: 100%;
+}
+.main .video .videoBox > div > div a {
+  color: grey;
+  transform: rotate(-90deg);
+}
+.main .video .videoBox > div > div a i {
+  font-size: 30px;
+}
+@media screen and (min-width: 768px) {
+  .main .video figure {
+    transform: translateX(2%);
+  }
+  .main .video .videoBox {
+    transform: translateX(-2%);
+  }
+}
+.main .selected {
+  background-color: black;
+}
+.main .selected h2 {
+  color: white;
+  font-size: 150%;
+  text-transform: uppercase;
+  font-family: chillax;
+  margin-bottom: 30px;
+}
+@media screen and (min-width: 425px) {
+  .main .selected h2 {
+    font-size: 170%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .main .selected h2 {
+    font-size: 250%;
+  }
+}
+.main .selected figure {
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 45% 0%;
+  height: 60vh;
+  font-family: chillax;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.main .selected figure:nth-of-type(1) {
+  background-image: url(../img/63d15ac4f646b6779ab57215_project-01.webp);
+}
+.main .selected figure:nth-of-type(2) {
+  background-image: url(../img/63d15f3d8f74d76a8617d4da_project-02.webp);
+}
+.main .selected figure:nth-of-type(3) {
+  background-image: url(../img/63d15f44a1b82fb1c8aa4ee2_project-03.webp);
+}
+.main .selected figure:nth-of-type(4) {
+  background-image: url(../img/63d15f513ad5ecfa6838003e_project-04.webp);
+}
+.main .selected figure:nth-of-type(4) > img {
+  width: 80px;
+}
+.main .selected figure > span {
+  background-color: rgba(0, 0, 0, 0.301);
+}
+.main .selected figure > * {
+  position: absolute;
+}
+.main .selected figure > img {
+  top: 7%;
+  left: 5%;
+  width: 50px;
+  z-index: 5;
+}
+.main .selected figure > figcaption {
+  text-transform: uppercase;
+  color: white;
+  font-size: 300%;
+  z-index: 5;
+  bottom: 7%;
+  left: 5%;
+}
+@media screen and (min-width: 425px) {
+  .main .selected figure > figcaption {
+    font-size: 350%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .main .selected figure > figcaption {
+    font-size: 500%;
+  }
+}
+@media screen and (min-width: 992px) {
+  .main .selected figure {
+    height: 90vh;
+  }
+}
+.main .follow {
+  height: 50px;
+  background-color: black;
+}
+.main .follow .followLine {
+  width: 2700px;
+  left: 0;
+  animation: follow 15s linear infinite;
+}
+.main .follow h2 {
+  color: grey;
+  font-size: 14px;
+  letter-spacing: 2px;
+  width: 300px;
+}
+@keyframes follow {
+  to {
+    left: -1500px;
+  }
+}
+.main .social {
+  background-color: black;
+}
+.main .social .socialBox {
+  background-color: rgb(30, 30, 30);
+  border-radius: 10px;
+  height: 200px;
+  margin-bottom: 20px;
+  transition: 0.4s;
+  cursor: pointer;
+}
+@media screen and (min-width: 768px) {
+  .main .social .socialBox:nth-of-type(odd) {
+    transform: translateX(-2%);
+  }
+  .main .social .socialBox:nth-of-type(even) {
+    transform: translateX(2%);
+  }
+}
+@media screen and (min-width: 992px) {
+  .main .social .socialBox:nth-of-type(1) {
+    transform: translateX(-3%);
+  }
+  .main .social .socialBox:nth-of-type(2) {
+    transform: translateX(-1%);
+  }
+  .main .social .socialBox:nth-of-type(3) {
+    transform: translateX(1%);
+  }
+  .main .social .socialBox:nth-of-type(4) {
+    transform: translateX(3%);
+  }
+}
+.main .social .socialBox:hover {
+  background-color: rgb(44, 44, 44);
+}
+.main .social .socialBox > * {
+  position: absolute;
+  font-family: chillax;
+}
+.main .social .socialBox > a {
+  color: rgba(255, 255, 255, 0.785);
+}
+.main .social .socialBox > a > i {
+  font-size: 20px;
+}
+.main .social .socialBox > a:nth-of-type(1) {
+  top: 7%;
+  left: 5%;
+}
+.main .social .socialBox > a:nth-of-type(2) {
+  top: 7%;
+  right: 5%;
+  transform: rotate(-135deg);
+}
+.main .social .socialBox > h3 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 150%;
+  top: 50%;
+  left: 5%;
+}
+@media screen and (min-width: 768px) {
+  .main .social .socialBox > h3 {
+    top: 45%;
+  }
+}
+.main .social .socialBox > p {
+  color: grey;
+  font-size: 80%;
+  top: 70%;
+  left: 2%;
+}
+@media screen and (min-width: 425px) {
+  .main .social .socialBox > p {
+    font-size: 100%;
+    left: 3%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .main .social .socialBox > p {
+    top: 65%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .main .social .socialBox {
+    height: 250px;
+  }
+}
+.main .behind {
+  background-color: black;
+}
+.main .behind .behindBox {
+  border-radius: 10px;
+  background-color: rgb(38, 38, 38);
+}
+.main .behind .behindBox figure {
+  min-height: 100px;
+}
+.main .behind .behindBox figure > img {
+  border-radius: 5px;
+}
+.main .behind .behindBox > div .news {
+  text-transform: uppercase;
+  color: white;
+  display: flex;
+  align-content: center;
+}
+.main .behind .behindBox > div .news span {
+  font-size: 100%;
+  margin-bottom: 5px;
+}
+.main .behind .behindBox > div .news h3 {
+  font-family: chillax;
+  padding-right: 0;
+}
+.main .behind .behindBox > div .email {
+  display: flex;
+  align-content: center;
+}
+.main .behind .behindBox > div .email input {
+  border: none;
+  border-radius: 10px;
+  border: 1px solid grey;
+  background-color: rgb(45, 45, 45);
+  height: 50px;
+}
+.main .behind .behindBox > div .email input::-moz-placeholder {
+  text-transform: uppercase;
+  color: rgb(142, 142, 142);
+}
+.main .behind .behindBox > div .email input::placeholder {
+  text-transform: uppercase;
+  color: rgb(142, 142, 142);
+}
+.main .behind .behindBox > div .email a {
+  background-color: #cebd63;
+  border-radius: 10px;
+  height: 50px;
+  color: rgb(31, 31, 31);
+  margin-top: 10px;
+  transition: 0.4s;
+}
+@media screen and (min-width: 768px) {
+  .main .behind .behindBox > div .email a {
+    transform: translateX(10px);
+    margin-top: 0;
+  }
+}
+.main .behind .behindBox > div .email a:hover {
+  background-color: #ac9a41;
+}
+.main .foot {
+  background-color: black;
+}
+@media screen and (min-width: 992px) {
+  .main .foot .alvy {
+    transform: translateX(-5px);
+  }
+  .main .foot .footOther {
+    transform: translateX(5px);
+  }
+}
+.main .foot .alvy {
+  border-radius: 10px;
+  background-color: rgb(31, 31, 31);
+  height: 250px;
+}
+@media screen and (min-width: 992px) {
+  .main .foot .alvy {
+    height: 510px;
+  }
+}
+.main .foot .alvy h5 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 130%;
+  font-family: chillax;
+}
+.main .foot .alvy .footIcons {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.main .foot .alvy .footIcons > a {
+  margin: 5px;
+  background-color: rgb(37, 37, 37);
+  border: 1px solid rgba(255, 255, 255, 0.347);
+  border-radius: 50%;
+  display: flex;
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+}
+.main .foot .alvy .footIcons > a:hover {
+  border: 1px solid white;
+}
+.main .foot .alvy .footIcons > a > i {
+  color: white;
+}
+.main .foot .footOther span {
+  text-transform: capitalize;
+  font-family: chillax;
+  border-radius: 10px;
+  background-color: rgb(31, 31, 31);
+  height: 100px;
+  font-size: 95%;
+}
+@media screen and (min-width: 425px) {
+  .main .foot .footOther span {
+    font-size: 110%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .main .foot .footOther span {
+    font-size: 150%;
+  }
+}
+.main .foot .footOther nav {
+  border-radius: 10px;
+  background-color: rgb(31, 31, 31);
+  display: flex;
+  flex-wrap: wrap;
+}
+.main .foot .footOther nav > div {
+  height: 400px;
+}
+@media screen and (max-width: 425px) {
+  .main .foot .footOther nav > div:nth-of-type(2) > h3 {
+    transform: translateX(10px);
+  }
+  .main .foot .footOther nav > div:nth-of-type(odd) ul {
+    transform: translateX(-10px);
+  }
+  .main .foot .footOther nav > div:nth-of-type(odd) .footNavButton {
+    transform: translateX(10%);
+  }
+}
+.main .foot .footOther nav h3 {
+  font-family: chillax;
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  padding-left: 13%;
+}
+.main .foot .footOther nav ul {
+  margin-top: -20px;
+}
+.main .foot .footOther nav ul > li {
+  margin-top: 7%;
+}
+.main .foot .footOther nav ul > li > a {
+  font-weight: bold;
+  color: grey;
+  transition: 0.4s;
+  font-size: 90%;
+}
+.main .foot .footOther nav ul > li > a:hover {
+  color: white;
+}
+.main .foot .footOther nav .footNavButton {
+  background-color: #e3d072;
+  height: 50px;
+  border-radius: 5px;
+  transition: 0.4s;
+  width: 150px;
+  transform: translateX(13%);
+}
+@media screen and (min-width: 1200px) {
+  .main .foot .footOther nav .footNavButton {
+    transform: translateX(13%) translateY(20px);
+  }
+}
+.main .foot .footOther nav .footNavButton:hover {
+  background-color: #b3a252;
+}
+.main .foot .footOther nav .footNavButton > a {
+  color: rgb(24, 24, 24);
+  font-size: 14px;
+}/*# sourceMappingURL=master.css.map */

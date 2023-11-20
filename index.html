@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/stylesheet/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/stylesheet/master.css">
+    <link rel="stylesheet" href="font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Varela+Round&display=swap" rel="stylesheet">
+</head>
+<!-- https://alvy-template.webflow.io/ -->
+<body>
+    <main class="col-12 main">
+        <div class="container-fluid container-xxl headTop position-relative px-2">
+            <div class="row h-100 w-100 m-0">
+                <div class="col-12 h-100">
+                    <div class="row h-100 w-100">
+                        <figure class="col-6 col-lg-2 col-xl-3 h-100 ps-4">
+                            <img class="h-100" src="assets/img/63cffd57394245f6843bd4fa_logo.svg" alt="">
+                        </figure>
+                        <nav class="h-100 d-none d-lg-flex col-lg-7 col-xl-6 menuTop p-0 flex-nowrap">
+                            <ul class="row h-100 w-100 p-0 align-items-center justify-content-end">
+                                <li class="w-auto"><a class="h-100 row align-items-center" href="">projects</a></li>
+                                <li class="w-auto"><a class="h-100 row align-items-center" href="">services</a></li>
+                                <li class="w-auto"><a class="h-100 row align-items-center" href="">studio</a></li>
+                                <li class="w-auto"><a class="h-100 row align-items-center" href="">blog</a></li>
+                                <li class="w-auto">
+                                    <a class="h-100 row align-items-center" href="">pages</a>
+                                    <span class="h-100 text-white">></span>
+                                    <div class="subMenu row col-12 position-absolute start-0 m-0 p-2 bg-dark">
+                                        <figure class="h-100 position-relative">
+                                            <img class="h-100 w-100 position-absolute start-0 top-0" src="assets/img/63d3f8b24ad0e43d683d7f0c_dropdown.webp" alt="">
+                                            <figcaption class="position-absolute">our story</figcaption>
+                                        </figure>
+                                        <div class="h-100">
+                                            <h3 class="w-100 h-25 d-flex align-items-center">pages</h3>
+                                            <ul class="w-100 h-75">
+                                                <li class="w-100"><a class="h-100 w-100" href="">home</a></li>
+                                                <li class="w-100"><a class="h-100 w-100" href="">services</a></li>
+                                                <li class="w-100"><a class="h-100 w-100" href="">studio</a></li>
+                                                <li class="w-100"><a class="h-100 w-100" href="">jobs</a></li>
+                                                <li class="w-100"><a class="h-100 w-100" href="">contact</a></li>
+                                            </ul>
+                                            <div class="subMenuButton">
+                                                <a class=" w-100 h-100 row justify-content-center align-items-center m-0" href="">more templates</a>
+                                            </div>
+                                        </div>
+                                        <div class="h-100">
+                                            <h3 class="w-100 h-25 d-flex align-items-center">cms</h3>
+                                            <ul class="w-100 h-75">
+                                                <li class="w-100"><a class="h-100 w-100" href="">projects</a></li>
+                                                <li class="w-100"><a class="h-100 w-100" href="">project single</a></li>
+                                                <li class="w-100"><a class="h-100 w-100" href="">blog</a></li>
+                                                <li class="w-100"><a class="h-100 w-100" href="">blog single</a></li>
+                                                <li class="w-100"><a class="h-100 w-100" href="">shop</a></li>
+                                                <li class="w-100"><a class="h-100 w-100" href="">shop single</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="h-100">
+                                            <h3 class="w-100 h-25 d-flex align-items-center">utility</h3>
+                                            <ul class="w-100 h-75">
+                                                <li class="w-100"><a class="h-100 w-100" href="">404 error page</a></li>
+                                                <li class="w-100"><a class="h-100 w-100" href="">password protected</a></li>
+                                                <li class="w-100"><a class="h-100 w-100" href="">styleguide</a></li>
+                                                <li class="w-100"><a class="h-100 w-100" href="">licensing</a></li>
+                                                <li class="w-100"><a class="h-100 w-100" href="">changelog</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </nav>
+                        <div class="cart col-4 col-sm-2 col-lg-1 d-flex justify-content-evenly align-items-center">
+                            <span>cart</span>
+                            <span class="d-flex align-items-center justify-content-center">0</span>
+                        </div>
+                        <div class="getInTouch d-none d-sm-flex col-sm-3 col-lg-2">
+                            <a class="w-100 h-100 text-dark row justify-content-center align-items-center m-0">get in touch</a>
+                        </div>
+                        <div class="toggle col-2 d-flex col-sm-1 d-lg-none">
+                            <span class="h-100 w-100 text-white d-flex justify-content-center align-items-center"><i class="bi bi-list"></i></span>
+                            <ul class="toggleMenu col-12 position-absolute start-0 px-3 m-0 bg-dark row align-content-center">
+                                <li class="w-100"><a class="h-100 w-100" href="">projects</a></li>
+                                <li class="w-100"><a class="h-100 w-100" href="">services</a></li>
+                                <li class="w-100"><a class="h-100 w-100" href="">blog</a></li>
+                                <li class="w-100"><a class="h-100 w-100" href="">studio</a></li>
+                                <li class="w-100"><a class="h-100 w-100" href="">jobs</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end of headTop*** -->
+        <div class="container-fluid container-xxl fashion px-3">
+            <div class="row h-100 w-100 m-0">
+                <div class="col-12 h-100">
+                    <div class="row h-100 w-100 m-0">
+                        <figure class="w-100 h-100 position-relative">
+                            <img class="w-100 h-100 position-absolute start-0 top-0" src="assets/img/63d2279606000f5f8a92b792_home-hero.webp" alt="">
+                            <figcaption class="position-absolute w-100 h-50">
+                                <h1 class="display-1">fashion</h1>
+                                <h1 class="display-1"> & branding</h1>
+                                <p>Bringing Your Fashion Brand's Unique Identity to Life Through Strategic Marketing and Advertising.</p>
+                            </figcaption>
+                            <span class="w-100 h-100 position-absolute start-0 top-0"></span>
+                        </figure>   
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end of fashion row*** -->
+        <div class="container-fluid container-xxl branding px-3">
+            <div class="row h-100 w-100 m-0">
+                <div class="col-12 h-100 p-0">
+                    <div class="row h-100 w-100 m-0">
+                        <div class="row col-12 col-md-6 mx-0 col-lg brandingBox mx-lg-2 my-3 p-3">
+                            <h3>branding</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi quas quos error reiciendis necessitatibus ratione?</p>
+                            <a href="">about branding</a>
+                        </div>
+                        <div class="row col-12 col-md-6 mx-0 col-lg brandingBox mx-lg-2 my-3 p-3">
+                            <h3>identity</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi quas quos error reiciendis necessitatibus ratione?</p>
+                            <a href="">about identity</a>
+                        </div>
+                        <div class="row col-12 col-md-6 mx-0 col-lg brandingBox mx-lg-2 my-3 p-3">
+                            <h3>marketing</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi quas quos error reiciendis necessitatibus ratione?</p>
+                            <a href="">about marketing</a>
+                        </div>
+                        <div class="row col-12 col-md-6 mx-0 col-lg brandingBox mx-lg-2 my-3 p-3">
+                            <h3>e-commerce</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi quas quos error reiciendis necessitatibus ratione?</p>
+                            <a href="">about e-commerce</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end of branding row*** -->
+        <div class="container-fluid container-xxl logos px-3">
+            <div class="row h-100 w-100 m-0">
+                <div class="col-12 h-100">
+                    <div class="row h-100 w-100 m-0">
+                        <figure class="col-4 col-md-2  d-flex justify-content-center align-items-center">
+                            <img class="w-100" src="assets/img/63d037709e815809b61d1053_client-logo-1.svg" alt="">
+                        </figure>
+                        <figure class="col-4 col-md-2  d-flex justify-content-center align-items-center">
+                            <img class="w-25" src="assets/img/63d0376f58c89d8156db0448_client-logo-2.svg" alt="">
+                        </figure>
+                        <figure class="col-4 col-md-2  d-flex justify-content-center align-items-center">
+                            <img class="w-50" src="assets/img/63d0376fc5cd4969c0713d1f_client-logo-3.svg" alt="">
+                        </figure>
+                        <figure class="col-4 col-md-2  d-flex justify-content-center align-items-center">
+                            <img class="w-50" src="assets/img/63d0376fe78b8a705ea1a9a6_client-logo-4.svg" alt="">
+                        </figure>
+                        <figure class="col-4 col-md-2  d-flex justify-content-center align-items-center">
+                            <img class="w-100" src="assets/img/63d03770e78b8a40c0a1a9a7_client-logo-5.svg" alt="">
+                        </figure>
+                        <figure class="col-4 col-md-2  d-flex justify-content-center align-items-center">
+                            <img class="w-25" src="assets/img/63d0376fa91d3d48a1d77d6d_client-logo-6.svg" alt="">
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end of logos row*** -->
+        <div class="container-fluid container-xxl about px-3">
+            <div class="row h-100 w-100 m-0">
+                <div class="col-12 h-100">
+                    <div class="row h-100 w-100 m-0">
+                        <figure class="col-12 col-lg-6 position-relative overflow-hidden">
+                            <img class="h-100 position-absolute top-0" src="assets/img/63d3bfeb533099399bbe18fb_home-about.webp" alt="">
+                            <span class="w-100 h-100 position-absolute start-0 top-0"></span>
+                        </figure>
+                        <div class="row col-12 col-lg-6 aboutBox m-0 px-4 py-lg-5 align-content-center align-content-lg-end">
+                            <h3>bringing fashion brands to life</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores corporis possimus quibusdam ratione et nesciunt beatae adipisci! Rem molestias error saepe. Modi quia deserunt fugit qui placeat officiis, iste suscipit?
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end of about row*** -->
+        <div class="container-fluid container-xxl video px-3 py-3">
+            <div class="row h-100 w-100 m-0">
+                <div class="col-12 h-100">
+                    <div class="row h-100 w-100 m-0">
+                        <div class="row col-12 col-md-6 m-0 videoBox p-0 
+                        align-items-center my-3 my-md-0">
+                            <div class="row w-100 mx-0 p-0">
+                                <div class="h-100 w-75">
+                                    <h4 class="w-100">video production</h4>
+                                    <p class="d-none w-100 d-lg-flex">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat asperiores cum maiores quisquam hic sequi?</p>
+                                </div>
+                                <div class="h-100 w-25">
+                                    <a class="h-100 w-100 d-flex justify-content-center align-items-center" href=""><i class="bi bi-arrow-down-circle"></i></a>
+                                </div>
+                            </div>
+                            <div class="row w-100 mx-0 p-0">
+                                <div class="h-100 w-75">
+                                    <h4 class="w-100">branding & identity</h4>
+                                    <p class="d-none w-100 d-lg-flex">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat asperiores cum maiores quisquam hic sequi?</p>
+                                </div>
+                                <div class="h-100 w-25">
+                                    <a class="h-100 w-100 d-flex justify-content-center align-items-center" href=""><i class="bi bi-arrow-down-circle"></i></a>
+                                </div>
+                            </div>
+                            <div class="row w-100 mx-0 p-0">
+                                <div class="h-100 w-75">
+                                    <h4 class="w-100">online marketing</h4>
+                                    <p class="d-none w-100 d-lg-flex">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat asperiores cum maiores quisquam hic sequi?</p>
+                                </div>
+                                <div class="h-100 w-25">
+                                    <a class="h-100 w-100 d-flex justify-content-center align-items-center" href=""><i class="bi bi-arrow-down-circle"></i></a>
+                                </div>
+                            </div>
+                            <div class="row w-100 mx-0 p-0">
+                                <div class="h-100 w-75">
+                                    <h4 class="w-100">e-commerce</h4>
+                                    <p class="d-none w-100 d-lg-flex">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat asperiores cum maiores quisquam hic sequi?</p>
+                                </div>
+                                <div class="h-100 w-25">
+                                    <a class="h-100 w-100 d-flex justify-content-center align-items-center" href=""><i class="bi bi-arrow-down-circle"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <figure class="col-12 col-md-6 position-relative">
+                            <img class="w-100 h-100 position-absolute top-0 start-0" src="assets/img/63d4f8f8d353ff2654a07ebd_home-tabs-01.webp" alt="">
+                            <span class="w-100 h-100 position-absolute start-0 top-0"></span>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end of video row*** -->
+        <div class="container-fluid container-xxl selected px-3">
+            <div class="row h-100 w-100 m-0">
+                <div class="col-12 h-100">
+                    <div class="row h-100 w-100 m-0">
+                        <h2 class="col-12">selected brands</h2>
+                        <figure class="col-12 position-relative">
+                            <img src="assets/img/63d0376fa91d3d48a1d77d6d_client-logo-6.svg" alt="">
+                            <figcaption>fashion</figcaption>
+                            <span class="w-100 h-100 position-absolute start-0 top-0"></span>
+                        </figure>
+                        <figure class="col-12 position-relative">
+                            <img src="assets/img/63d0376fc5cd4969c0713d1f_client-logo-3.svg" alt="">
+                            <figcaption>noise</figcaption>
+                            <span class="w-100 h-100 position-absolute start-0 top-0"></span>
+                        </figure>
+                        <figure class="col-12 position-relative">
+                            <img src="assets/img/63d0376f58c89d8156db0448_client-logo-2.svg" alt="">
+                            <figcaption>lawyers</figcaption>
+                            <span class="w-100 h-100 position-absolute start-0 top-0"></span>
+                        </figure>
+                        <figure class="col-12 position-relative">
+                            <img src="assets/img/63d0376fe78b8a705ea1a9a6_client-logo-4.svg" alt="">
+                            <figcaption>flowers</figcaption>
+                            <span class="w-100 h-100 position-absolute start-0 top-0"></span>
+                        </figure>   
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end of selected row*** -->
+        <div class="container-fluid container-xxl follow px-3">
+            <div class="row h-100 w-100 m-0">
+                <div class="col-12 h-100 overflow-hidden position-relative">
+                    <div class="row h-100 m-0 followLine justify-content-center align-items-center position-absolute top-0">
+                        <h2>·   FOLLOW US ON SOCIAL MEDIA</h2>
+                        <h2>·   FOLLOW US ON SOCIAL MEDIA</h2>
+                        <h2>·   FOLLOW US ON SOCIAL MEDIA</h2>
+                        <h2>·   FOLLOW US ON SOCIAL MEDIA</h2>
+                        <h2>·   FOLLOW US ON SOCIAL MEDIA</h2>
+                        <h2>·   FOLLOW US ON SOCIAL MEDIA</h2>
+                        <h2>·   FOLLOW US ON SOCIAL MEDIA</h2>
+                        <h2>·   FOLLOW US ON SOCIAL MEDIA</h2>
+                        <h2>·   FOLLOW US ON SOCIAL MEDIA</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end of follow row*** -->
+        <div class="container-fluid container-xxl social px-3">
+            <div class="row h-100 w-100 m-0">
+                <div class="col-12 h-100">
+                    <div class="row h-100 w-100 m-0">
+                        <div class="col-12 col-md-6 col-lg-3 position-relative socialBox">
+                            <a href=""><i class="bi bi-instagram"></i></a>
+                            <a href=""><i class="bi bi-arrow-down-circle"></i></a>
+                            <h3>instagram</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, perferendis.</p>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3 position-relative socialBox">
+                            <a href=""><i class="bi bi-twitter"></i></a>
+                            <a href=""><i class="bi bi-arrow-down-circle"></i></a>
+                            <h3>twitter</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, perferendis.</p>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3 position-relative socialBox">
+                            <a href=""><i class="bi bi-dribbble"></i></a>
+                            <a href=""><i class="bi bi-arrow-down-circle"></i></a>
+                            <h3>dribbble</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, perferendis.</p>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3 position-relative socialBox">
+                            <a href=""><i class="bi bi-behance"></i></a>
+                            <a href=""><i class="bi bi-arrow-down-circle"></i></a>
+                            <h3>behance</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, perferendis.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end of social row*** -->
+        <div class="container-fluid container-xxl behind px-3">
+            <div class="row h-100 w-100 m-0">
+                <div class="col-12 h-100 p-0">
+                    <div class="row h-100 w-100 m-0 behindBox justify-content-center align-content-center">
+                        <figure class="col-12 col-md-2 col-lg-1 my-3">
+                            <img class="h-100 w-100" src="assets/img/63d630b9f7e09b4b1337bbe2_newsletter.webp" alt="">
+                        </figure>
+                        <div class="row col-12 px-md-4 py-md-2 col-md-10 col-lg-11">
+                            <div class="row col-12 col-lg-6 news">
+                                <span>newsletter</span>
+                                <h3>GET INSIGHTS BEHIND THE SCENES</h3>
+                            </div>
+                            <div class="row col-12 col-lg-6 py-3 py-lg-0 email m-0">
+                                <input class="col-12 col-md-8" type="email" id="email" placeholder="your email">
+                                <a class="col-12 col-md-4 d-flex justify-content-center
+                                align-items-center" href="">subscribe</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end of behind row*** -->
+        <footer class="container-fluid container-xxl foot px-3">
+            <div class="row h-100 w-100 m-0">
+                <div class="col-12 h-100 p-0">
+                    <div class="row h-100 w-100 mx-0 my-3 behindBox justify-content-center align-content-center">
+                        <div class="alvy col-12 col-lg-2 my-2 my-lg-0 py-5 px-4 px-lg-2 d-flex flex-wrap align-content-between">
+                            <h5 class="w-100 ps-lg-4">alvy</h5>
+                            <div class="footIcons w-100 ps-lg-2">
+                                <a href="https://instagram.com/dorsamhmdi.web?igshid=OGQ5ZDc2ODk2ZA==" target="_blank"><i class="bi bi-instagram"></i></a>
+                                <a href="https://www.linkedin.com/in/dorsa-mohammadi-692854284" target="_blank"><i class="bi bi-linkedin"></i></a>
+                                <a href="https://github.com/dorsamhm" target="_blank"><i class="bi bi-github"></i></a>
+                            </div>
+                        </div>
+                        <div class="footOther col-12 col-lg-10 p-0">
+                            <nav class="row col-12 m-0">
+                                <div class="col-6 col-md-4">
+                                    <h3 class="w-100 h-25 d-flex align-items-center">pages</h3>
+                                    <ul class="w-100 h-50 d-flex flex-wrap align-content-evenly">
+                                        <li class="w-100"><a class="h-100 w-100" href="">home</a></li>
+                                        <li class="w-100"><a class="h-100 w-100" href="">services</a></li>
+                                        <li class="w-100"><a class="h-100 w-100" href="">studio</a></li>
+                                        <li class="w-100"><a class="h-100 w-100" href="">jobs</a></li>
+                                        <li class="w-100"><a class="h-100 w-100" href="">contact</a></li>
+                                    </ul>
+                                    <div class="footNavButton">
+                                        <a class=" w-100 h-100 row justify-content-center align-items-center m-0" href="">more templates</a>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-4">
+                                    <h3 class="w-100 h-25 d-flex align-items-center">cms</h3>
+                                    <ul class="w-100 h-75 d-flex flex-wrap align-content-evenly">
+                                        <li class="w-100"><a class="h-100 w-100" href="">projects</a></li>
+                                        <li class="w-100"><a class="h-100 w-100" href="">project single</a></li>
+                                        <li class="w-100"><a class="h-100 w-100" href="">blog</a></li>
+                                        <li class="w-100"><a class="h-100 w-100" href="">blog single</a></li>
+                                        <li class="w-100"><a class="h-100 w-100" href="">shop</a></li>
+                                        <li class="w-100"><a class="h-100 w-100" href="">shop single</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-6 col-md-4">
+                                    <h3 class="w-100 h-25 d-flex align-items-center">utility</h3>
+                                    <ul class="w-100 h-75 d-flex flex-wrap align-content-evenly">
+                                        <li class="w-100"><a class="h-100 w-100" href="">404 error page</a></li>
+                                        <li class="w-100"><a class="h-100 w-100" href="">password protected</a></li>
+                                        <li class="w-100"><a class="h-100 w-100" href="">styleguide</a></li>
+                                        <li class="w-100"><a class="h-100 w-100" href="">licensing</a></li>
+                                        <li class="w-100"><a class="h-100 w-100" href="">changelog</a></li>
+                                    </ul>
+                                </div>
+                            </nav>
+                            <span class="col-12 d-flex text-white my-2 h2 align-items-center justify-content-center">development by dorsa mohammadi</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </main>
+</body>
+</html>
