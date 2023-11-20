@@ -1,6 +1,6 @@
 # Responsive Web Template
 
-![project1](https://github.com/dorsamhm/project7/blob/main/assets/img/proj7Bg.png)
+![project1](https://github.com/dorsamhm/project7/blob/main/proj7Bg.png)
 
 - [Demo Project](https://dorsamhm.github.io/project7/)
 
